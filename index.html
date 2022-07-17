@@ -8,13 +8,21 @@
 </head>
 
 <body>
-    <p>Welocme to my Pomodoro!</p>
+    <p id="welcome">Welocme to my Pomodoro!</p>
     <p><a href="https://github.com/ryjpink?tab=repositories">Visit My Github</a></p>
     <div id="countdown">0:00</div>
-    <label for="timer-duration">Duration in seconds</label>
-    <input type="number" value="5" id="timer-duration">
-    <button id="start-button">Start Timer</button>
-    <button id="stop-button" hidden>Stop Timer</button>
+    <div id="timer-controls">
+        <label for="timer-duration">Duration in seconds</label>
+        <input type="number" value="5" id="timer-duration">
+        <button id="start-button">Start Timer</button>
+        <button id="stop-button" hidden>Stop Timer</button>
+    </div>
+    <input type="text" id="task-content">
+    <button id="add-task">Add Task</button>
+    <ol id="task-list">Current tasks</ol>
+
+
+
     <script src="main.js"></script>
 </body>
 

@@ -1,3 +1,24 @@
+
+body {
+    background-color:#E4FDE1;
+}
+
+#welcome {
+    color: #114B5F;
+    font-size:xx-large;
+}
+
+#timer-controls {
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.task {
+    display: flex;
+}
+
 #countdown {
     font-size: 100px;
     font-family: monospace;
